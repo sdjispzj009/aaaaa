@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Information</title>
+    <style>
+        body {
+            background-color: calc();
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vehicle Information</h1>
+    </header>
+    <main>
+        <section id="cars">
+            <h2>Cars</h2>
+            <p>Cars are vehicles designed primarily for transportation of people.</p>
+            <p>They typically have four wheels, and are powered by internal combustion engines.</p>
+            <p><a href="cars">Learn more about cars</a></p>
+        </section>
+        <section id="trucks">
+            <h2>Trucks</h2>
+            <p>Trucks are larger vehicles designed for transporting goods and materials.</p>
+            <p>They come in various sizes and configurations, from pickup trucks to heavy-duty semis.</p>
+            <p><a href="trucks">Learn more about trucks</a></p>
+        </section>
+        <section id="motorcycles">
+            <h2>Motorcycles</h2>
+            <p>Motorcycles are two-wheeled vehicles typically used for personal transportation.</p>
+            <p>They are known for their agility and speed, and come in different types such as sport bikes, cruisers, and touring bikes.</p>
+            <p><a href="motorcycles">Learn more about motorcycles</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vehicle Information. All rights reserved.</p>
+    </footer>
+</body>
+</html>

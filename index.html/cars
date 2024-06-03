@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Car Showroom</h1>
+    </header>
+    <main>
+        <section id="cars">
+            
+            <div class="vehicle">
+                
+                    <img src="https://www.buyatoyota.com/assets/img/vehicle-info/Camry/2022/hero_image_camry.png" alt="Car 1">
+                </a>
+                <h3>Toyota Camry</h3>
+                <ul>
+                    <li><strong>Price:</strong> $25,000</li>
+                    <li><strong>Year:</strong> 2022</li>
+                    <li><strong>Mileage:</strong> 20,000 miles</li>
+                    <!-- Add more information about Car 1 if needed -->
+                </ul>
+            </div>
+            
+            <div class="vehicle">
+               
+                    <img src="https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_1080,q_auto:eco,w_1920/v1/cms/uploads/loqpsjfvmcu4bbqnh4vl" width="740" height="auto" alt="Car 2">
+                </a>
+                <h3>Honda Civic</h3>
+                <ul>
+                    <li><strong>Price:</strong> $30,000</li>
+                    <li><strong>Year:</strong> 2021</li>
+                    <li><strong>Mileage:</strong> 15,000 miles</li>
+                    <!-- Add more information about Car 2 if needed -->
+                </ul>
+            </div>
+
+            <!-- Add more cars -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Showroom. All rights reserved.</p>
+    </footer>
+</body>
+</html>
